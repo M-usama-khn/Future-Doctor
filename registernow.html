@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <!-- HEADER START -->
+
+    <header>
+        <div class="top-header container-fluid py-3 bg-topnav">
+            <div class="container d-flex align-items-center justify-content-between">
+                <div class="d-flex gap-4">
+                    <div><a href="callto:(002) 01061245741" class="text-light text-decoration-none size-13"><i
+                                class="bi bi-telephone-fill px-4"></i>Help Line: (002) 01061245741</a></div>
+                    <div><a href="" class="text-light text-decoration-none size-13"><i
+                                class="bi bi-geo-alt-fill px-2"></i>Location: Brooklyn, New York</a></div>
+                </div>
+                <div class="d-flex ">
+                    <div class="d-flex align-items-center gap-3">
+                        <a href="" class="text-light text-decoration-none"><i class="bi bi-facebook"></i></a>
+                        <a href="" class="text-light text-decoration-none"><i class="bi bi-instagram"></i></a>
+                        <a href="" class="text-light text-decoration-none"><i class="bi bi-youtube"></i></a>
+                    </div>
+                    <div>
+                        <div class="vr mx-3 bg-light"></div>
+                        <input class=" px-1 bg-transparent border-0 w-50" type="text" placeholder="Type Search Words">
+                        <i class="bi bi-search text-light"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid bg-light">
+            <nav class="navbar navbar-expand-lg  container-fluid p-0 m-0">
+                <div class="container">
+                    <div>
+                        <a href=""><img src="assets/images/site-logo.png" alt=""></a>
+                    </div>
+                    <div class="mobile">
+                        <button class="rounded bg-nav" type="button" data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling"><i
+                                class="bi bi-chevron-bar-contract text-light fw-7"></i></button>
+                        <div class="offcanvas offcanvas-start w-rem" data-bs-scroll="true" data-bs-backdrop="false"
+                            tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+                            <div class="offcanvas-header">
+                                <h5 class="offcanvas-title" id="offcanvasScrollingLabel"></h5>
+                                <a type="button" class="text-dark " data-bs-dismiss="offcanvas" aria-label="Close">
+                                    <i class="bi bi-x-circle" style="width:24px; height:24px;"></i>
+                                </a>
+                            </div>
+
+                            <div class="offcanvas-body">
+                                <div style="border-bottom:solid 1px;">
+
+                                    <div
+                                        class="input-wrapper w-100 mx-auto d-flex align-items-center rounded py-2 mb-5">
+                                        <i class="bi bi-search fs-4 px-3 text-dark"></i>
+                                        <input type="text" class="w-100 border-0 bg-transparent input"
+                                            placeholder="Search">
+
+                                    </div>
+                                </div>
+                                <ul class="navbar-nav me-auto mb-2 mb-lg-0 py-4">
+
+                                    <li class="nav-item d-flex align-items-start gap-2">
+                                        <i class="bi bi-house-door-fill side-icon"></i>
+                                        <a class=" side-tag text-decoration-none" href="#">Home</a>
+                                    </li>
+                                    <li class=" d-flex align-items-start gap-2 py-5">
+                                        <i class="bi bi-cart-fill side-icon"></i>
+                                        <a class=" side-tag text-decoration-none" href="#shop">Shop</a>
+                                    </li>
+                                    <li class=" d-flex align-items-start gap-2">
+                                        <i class="bi bi-mortarboard-fill side-icon"></i>
+                                        <a class=" side-tag text-decoration-none size-15 fw-7"
+                                            href="#courses">Courses</a>
+                                    </li>
+                                    <li class=" d-flex align-items-start gap-2 py-5">
+                                        <i class="bi bi-check-square-fill side-icon"></i>
+                                        <a class=" side-tag text-decoration-none" href="#">Which Branch of Medicine
+                                            Should I
+                                            Choose?</a>
+                                    </li>
+                                    <li class=" d-flex align-items-start gap-2">
+                                        <i class="bi bi-hand-index-thumb-fill side-icon"></i>
+                                        <a class=" side-tag text-decoration-none" href="#">Get in touch</a>
+                                    </li>
+                                    <li class=" d-flex align-items-start gap-2 py-5">
+                                        <i class="bi bi-cart2 side-icon"></i>
+                                        <a class=" side-tag text-decoration-none" href="#">Cart</a>
+                                    </li>
+                                    <li class=" d-flex align-items-start gap-2">
+                                        <i class="bi bi-person-fill"></i>
+                                        <a class=" side-tag text-decoration-none" href="#">Profile</a>
+                                    </li>
+                                    <li class=" d-flex align-items-start gap-2 py-5">
+                                        <i class="bi bi-gear"></i>
+                                        <a class=" side-tag text-decoration-none" href="#">Settings</a>
+                                    </li>
+                                    <li class=" d-flex align-items-start gap-2">
+                                        <i class="bi bi-box-arrow-right text-danger"></i>
+                                        <a class=" side-tag text-decoration-none text-danger" href="#">Logout</a>
+                                    </li>
+                                </ul>
+                                <button href="registernow.html" target="_blank"
+                                    class="border-0 reg-btn rounded-pill text-light  size-15 fw-7" type="submit">
+                                    <i class="bi bi-calendar2-date-fill px-1"></i>
+                                    Register Now</button>
+
+
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="web-nav">
+                        <div class=" d-flex align-items-center gap-5 my-2">
+                            <div class="d-flex ">
+                                <ul class="navbar-nav mb-lg-0 d-flex gap-2">
+                                    <li class="nav-item">
+                                        <a class="nav-link size-15 text-decoration-none f-blue fw-7"
+                                            href="#home">Home</a>
+
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link size-15 text-decoration-none f-blue fw-7"
+                                            href="#home">Courses</a>
+
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link size-15 text-decoration-none f-blue fw-7"
+                                            href="#home">Shop</a>
+
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <a class="nav-link size-15 text-decoration-none f-blue fw-7" href="#home">About
+                                            Us</a>
+
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link size-15 text-decoration-none f-blue fw-7"
+                                            href="#home">Contact Us</a>
+
+                                    </li>
+                                    <li class="nav-item">
+                                        <div class="vr mt-3"></div>
+                                    </li>
+                                    <li class="nav-item d-flex align-items-center">
+
+                                        <a class="nav-link extra size-15 text-decoration-none f-blue fw-7"
+                                            href="#home"><i class="bi bi-person px-2"></i>Login</a>
+
+                                    </li>
+                                </ul>
+
+
+
+
+
+                            </div>
+
+
+                            <button href="registernow.html" target="_blank"
+                                class="border-0 reg-btn rounded-pill text-light  size-15 fw-7" type="submit">
+                                <i class="bi bi-calendar2-date-fill px-1"></i>
+                                Register Now</button>
+
+                        </div>
+                    </div>
+
+                </div>
+            </nav>
+
+        </div>
+    </header>
+    <!-- HEADER END -->
+
+    <!-- REGISTERATION FORM START -->
+    <section class="reg-img container-fluid">
+
+        <h1 class="mx-auto text-center reg-heading text-light ">Register</h1>
+        <div class="reg-form mx-auto my-4 py-4 px-4">
+            <form>
+                <div class="form-group">
+
+                    <input type="email" class="form-control border-0 py-4  " id="1"
+                        aria-describedby="emailHelp" placeholder="Full name">
+                </div>
+            
+
+                <div class="form-group ">
+
+                    <input type="email" class="form-control border-0 py-4 my" id="2"
+                        aria-describedby="emailHelp" placeholder="Email">
+                </div>
+                
+                <div class="form-group ">
+
+                    <input type="email" class="form-control border-0 py-4" id="3"
+                        aria-describedby="emailHelp" placeholder="Confirm email">
+                </div>
+                
+                <div class="form-group ">
+                    <label for="4"> <small id="emailHelp" class="form-text text-dark">Where did you buy your Apprentice
+                            Doctor Simulation Kit/Bundle from? If you don't own a Kit or Bundle, leave this field
+                            empty.</small></label>
+
+
+                    <input type="email" class="form-control border-0 py-4" id="4"
+                        aria-describedby="emailHelp" placeholder="soeraji@circle.com">
+                </div>
+                
+                <div class="form-group ">
+                    <label for="5"> <small id="emailHelp" class="form-text text-dark">Order Reference or Unique Kit Code
+                            (for certification)</small>
+                    </label>
+
+                    <input type="email" class="form-control border-0 py-4" id="5"
+                        aria-describedby="emailHelp" placeholder="soeraji@circle.com">
+                        <hr class="p-0 m-0 mb-1">
+
+                    <small id="emailHelp" class="form-text text-muted size-12 py-3"><i>If you bought a sim kit but
+                            didn't receive an order reference or unique kit code, go to the menu and Get In Touch to
+                            ensure you receive your certification.</i></small>
+                </div>
+                <div class="form-group ">
+                    <label for="6"> <small id="emailHelp" class="form-text text-dark">Your Current Phase
+                            *</small></label>
+
+                            
+
+                    <select class="form-control border-0 f-span py-2" id="6" placeholder="Please select...">
+                        <option>Please select</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                    </select>
+
+                </div>
+                
+                <div class="form-group ">
+                    <label for="7"> <small id="emailHelp" class="form-text text-dark">Field of Interest</small></label>
+
+
+                    <input type="email" class="form-control border-0 py-4" id="7"
+                        aria-describedby="emailHelp" placeholder="e.g. GP, Dental, Nursing, Physician Assistant...">
+                </div>
+                
+                <div class="form-group ">
+
+
+                    <input type="email" class="form-control border-0 py-4" id="8"
+                        aria-describedby="emailHelp"
+                        placeholder="Where did you find out about Future Doctors' Academy?">
+                </div>
+                
+                <div class="form-group ">
+
+
+                    <input type="email" class="form-control border-0 py-4" id="9"
+                        aria-describedby="emailHelp" placeholder="Username">
+                </div>
+
+                
+
+                <div class="form-group ">
+
+                    <input type="password" class="form-control border-0 py-4" id="10"
+                        placeholder="Password">
+                </div>
+                
+                <div class="form-group ">
+
+                    <input type="password" class="form-control border-0 py-3" id="11"
+                        placeholder="Confirm password">
+                </div>
+                
+                <h5 class="legal">Legal Considerations:</h5>
+                <ul class="legal-ul" style="line-height: 24px;">
+                    <li>Future Doctors Academy`s courses do NOT qualify or license you as a medical professional. You
+                        need to pass government-prescribed training and register with the relevant governmental
+                        medical/healthcare regulatory bodies before you can legally treat patients.
+                    </li>
+                    <li> The course material is not intended as medical advice to any individual for any specific
+                        medical problem or condition. Consult your doctor or relevant healthcare professional for any
+                        advice regarding any medical disease or condition.
+                    </li>
+                    <li>The Apprentice Corporation / Future Doctors Academy will not take any responsibility whatsoever
+                        regarding the use or misuse of the information contained in any of the Future Doctors Academy.<a
+                            href="" class="f-b"> Click here to see our full terms and conditions.</a>
+                    </li>
+                    <li><span class="f-red"> Only one person per profile/account is allowed. Schools, colleges,
+                            universities, please have each student create their own account. If duplicate log-ins are
+                            detected, the account will be suspended.</span></li>
+                </ul>
+                <p class="legal-ul">By continuing beyond this point, you acknowledge that you have read the above
+                    directives, you agree to abide by them, and you will not hold the Apprentice Corporation accountable
+                    for any consequences resulting from not doing so.</p>
+
+                <button href="registernow.html" target="_blank"
+                    class="border-0 reg-btn rounded-pill text-light w-100 size-15 fw-7" type="submit">
+
+                    Get Started</button>
+        </div>
+    </section>
+
+
+
+
+
+    <!-- REGISTERATION FORM END -->
+
+   
+
+
+</body>
+
+</html>
